@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API = axios.create({ baseURL: "http://localhost:5000" });
-const API_URL = "/api/docs/";
+const API_URL = "https://damanapi.herokuapp.com/api/docs/";
 
 // create new form
 const createForm = async (formData, token) => {
