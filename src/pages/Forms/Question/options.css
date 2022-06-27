@@ -1,0 +1,8 @@
+input:focus,
+input:focus-visible {
+  outline: 1px solid #555;
+}
+.options {
+  display: initial !important;
+  width: initial !important;
+}

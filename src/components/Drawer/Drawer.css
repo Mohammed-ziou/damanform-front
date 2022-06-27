@@ -1,0 +1,23 @@
+.MuiDrawer-paper {
+  min-width: 20%;
+  padding: 5% 2%;
+  background-color: aliceblue !important;
+}
+.drawer-heading {
+  margin-bottom: 1.5rem !important;
+}
+
+.list-items:hover {
+  border-radius: 0 20px 20px 0;
+}
+
+.list-items-links {
+  color: #222;
+  text-decoration: none;
+}
+
+.logout-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+}

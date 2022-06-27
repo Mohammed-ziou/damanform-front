@@ -1,0 +1,36 @@
+.title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 20px 50px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: hsla(172, 20%, 42%, 0.651);
+  box-shadow: 0 11px 15px rgba(0, 0, 0, 0.3), 0 8px 7px rgba(0, 0, 0, 0.22);
+  margin: 10px auto 30px;
+}
+.title-box label {
+  font-size: 2rem;
+}
+.title-box textarea,
+.title-box input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: rgba(231, 231, 231, 0.582);
+}
+.title-box textarea:focus-visible,
+.title-box input:focus-visible,
+.title-box textarea:focus,
+.title-box input:focus {
+  outline: 2px solid rgb(82, 82, 82);
+  /* outline: none; */
+}
+
+.questions-container {
+  display: flex;
+}
+
+.submit-container {
+  justify-content: flex-end;
+}

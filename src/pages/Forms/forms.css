@@ -1,0 +1,24 @@
+.card-text {
+  text-align: left !important;
+}
+
+.responseCounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-header {
+  width: 100%;
+}
+
+.btn-forms {
+  width: 100%;
+}
+/* button {
+  width: 100% !important;
+} */
+
+a {
+  text-decoration: none;
+}
